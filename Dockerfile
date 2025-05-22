@@ -1,8 +1,7 @@
 FROM alpine/ollama:latest
 
-# نسخ سكربت التشغيل
-COPY start.bash /start.bash
-RUN chmod +x /start.bash
+COPY start.sh /start.sh
+RUN chmod +x /start.sh
 
-# تشغيل السكربت عند بدء الحاوية
-CMD ["/bin/sh", "/start.bash"]
+ENTRYPOINT []     # ⬅️ تعطيل ollama كـ entrypoint
+CMD ["/bin/sh", "/start.sh"]
