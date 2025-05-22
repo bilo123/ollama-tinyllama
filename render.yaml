@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: ollama-tinyllama
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    region: frankfurt
+    healthCheckPath: / 
