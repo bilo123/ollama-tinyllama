@@ -7,7 +7,7 @@ ollama serve &
 sleep 5
 
 echo "⏬ تحميل نموذج TinyLlama..."
-ollama pull orca-mini
+ollama pull deepseek-r1:1.5b
 
 # ننتظر إلى ما لا نهاية ليبقى السيرفر شغالًا
 wait
