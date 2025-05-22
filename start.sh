@@ -7,7 +7,7 @@ ollama serve &
 sleep 5
 
 echo "⏬ تحميل نموذج TinyLlama..."
-ollama pull rever/llamafile:TinyLlama-1.1B-Chat-v1.0.F16
+ollama pull TinyLlama-1.1B-Chat-v1.0.F16
 
 # ننتظر إلى ما لا نهاية ليبقى السيرفر شغالًا
 wait
