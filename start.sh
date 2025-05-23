@@ -7,6 +7,9 @@ echo "Starting Ollama service..."
 ollama serve &
 sleep 5
 
+echo "Adding models..."
+ollama pull tinyllama
+
 echo "Listing available models..."
 ollama list
 
