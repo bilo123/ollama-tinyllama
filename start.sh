@@ -7,7 +7,7 @@ ollama serve &
 sleep 5
 
 echo "⏬ تحميل نموذج TinyLlama..."
-ollama pull GPT4All-Mini
+ollama pull Vicuna 7B
 
 # ننتظر إلى ما لا نهاية ليبقى السيرفر شغالًا
 wait
