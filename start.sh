@@ -7,7 +7,7 @@ ollama serve &
 sleep 5
 
 echo "⏬ تحميل نموذج TinyLlama..."
-ollama pull TinyLlama-1.1B-Chat-v1.0.F16
+ollama pull GPT4All-J-v1.3-groovy
 
 # ننتظر إلى ما لا نهاية ليبقى السيرفر شغالًا
 wait
