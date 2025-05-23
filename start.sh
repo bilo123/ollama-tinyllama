@@ -3,5 +3,6 @@
 echo "Starting Ollama service..."
 
 ollama serve
+ollama list
 
 
