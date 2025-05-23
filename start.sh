@@ -5,7 +5,7 @@ ollama serve &
 
 # ننتظر قليلاً ليبدأ السيرفر
 sleep 5
-
+ollama list
 echo "⏬ تحميل نموذج TinyLlama..."
 ollama pull TinyBERT
 
