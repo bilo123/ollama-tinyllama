@@ -1,12 +1,13 @@
 #!/bin/sh
 
-echo "Starting Ollama service..."
+# تأكد من تعيين المتغير البيئي للبورت
+export OLLAMA_HOST=0.0.0.0:11434
 
-# شغل الخدمة في الخلفية
+echo "Starting Ollama service..."
 ollama serve &
 
-# خذ وقت صغير حتى تبدأ الخدمة
-sleep 3
+# انتظر قليلاً حتى يبدأ السيرفر
+sleep 5
 
 echo "Ollama List Models..."
 ollama list
