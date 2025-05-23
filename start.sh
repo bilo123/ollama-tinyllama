@@ -1,17 +1,7 @@
 #!/bin/sh
 
-echo "🚀 تشغيل Ollama في الخلفية..."
-# شغل خدمة ollama في الخلفية (مثلاً)
-ollama daemon &
-
-# انتظر قليلاً للتأكد أنها بدأت
-
-
+docker exec -it alpine/ollama sh
 ollama list
-sleep 5
-
-echo "⏬ تحميل نموذج TinyLlama..."
-ollama pull TinyBERT
-
+ollama pull tinyllama
 # ننتظر إلى ما لا نهاية ليبقى السيرفر شغالًا
 wait
