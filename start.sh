@@ -8,7 +8,7 @@ ollama serve &
 sleep 5
 
 echo "Adding models..."
-ollama pull tinydolphin
+ollama pull icky/translate
 
 echo "Listing available models..."
 ollama list
