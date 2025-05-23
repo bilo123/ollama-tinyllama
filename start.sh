@@ -7,7 +7,7 @@ ollama serve &
 sleep 5
 
 echo "⏬ تحميل نموذج TinyLlama..."
-ollama pull DistilBERT
+ollama pull TinyBERT
 
 # ننتظر إلى ما لا نهاية ليبقى السيرفر شغالًا
 wait
