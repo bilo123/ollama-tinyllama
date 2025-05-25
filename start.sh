@@ -8,7 +8,7 @@ ollama serve &
 sleep 5
 
 echo "Adding models..."
-ollama pull icky/translate
+ollama pull llama3.2
 
 echo "Listing available models..."
 ollama list
